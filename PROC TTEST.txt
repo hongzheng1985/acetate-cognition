@@ -1,0 +1,6 @@
+PROC TTEST DATA=datasetname;
+    CLASS factorvars; 
+    VAR responsevars;
+    MEANS factorvars / bon;
+RUN;
+QUIT;

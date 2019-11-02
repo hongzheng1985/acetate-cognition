@@ -1,0 +1,6 @@
+PROC ANOVA DATA=datasetname;
+     CLASS factorvars;
+     MODEL responsevars = factorvars;
+     MEANS factorvars / bon;
+RUN;
+QUIT;
